@@ -29,7 +29,7 @@ brew install ghc cabal-install
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourgithubusername/haskell-port-scanner.git
+git clone https://github.com/mohammadreza-ashouri/Haskell-portScanner.git
 cd haskell-port-scanner
 ```
 
@@ -49,7 +49,7 @@ Compile the script (if your script is named PortScanner.hs):
 ghc -o portscanner PortScanner.hs
 ```
 
-Run the compiled binary, and follow the on-screen prompts to input the target IP address and port range:
+Run the compiled binary and follow the on-screen prompts to input the target IP address and port range:
 
 ```bash
 ./portscanner
