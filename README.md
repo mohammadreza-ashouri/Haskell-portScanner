@@ -15,6 +15,7 @@ The easiest way to install GHC and Cabal on macOS is via Homebrew. If you haven'
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 
 Once Homebrew is installed, you can install GHC and Cabal with:
