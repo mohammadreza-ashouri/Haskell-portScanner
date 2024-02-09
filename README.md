@@ -8,7 +8,7 @@ The current version allows users to input a target IP address and a port range f
 ## Installation
 
 ### Prerequisites
-Before running the script, ensure you have GHC (The Glasgow Haskell Compiler) and Cabal installed on your macOS. These tools are essential for compiling and running Haskell programs.
+Before running the script, please make sure you have GHC (The Glasgow Haskell Compiler) and Cabal installed on your macOS. These tools are essential for compiling and running Haskell programs.
 
 #### Installing GHC and Cabal
 The easiest way to install GHC and Cabal on macOS is via Homebrew. If you haven't installed Homebrew yet, you can do so by running the following command in your terminal:
@@ -22,7 +22,7 @@ Once Homebrew is installed, you can install GHC and Cabal with:
 
 ```bash
 brew install ghc cabal-install
-
+```
 
 
 ## Setting Up the Project
@@ -31,14 +31,14 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourgithubusername/haskell-port-scanner.git
 cd haskell-port-scanner
+```
 
-
-Ensure you have the network package, which is required for the script to run. You can install it using Cabal:
+Please make sure you have the network package, which is required for the script to run. You can install it using Cabal:
 
 ```bash
 cabal update
 cabal install network
-
+```
 
 ## Running the Script
 After installing the prerequisites and setting up the project, you can run the script directly from the terminal:
@@ -47,16 +47,16 @@ Compile the script (if your script is named PortScanner.hs):
 
 ```bash
 ghc -o portscanner PortScanner.hs
-
+```
 
 Run the compiled binary, and follow the on-screen prompts to input the target IP address and port range:
 
 ```bash
 ./portscanner
-
+```
 
 ## Future Work
-As I delve deeper into network security and Haskell's capabilities, I plan to expand this tool's functionality. Upcoming features include:
+I plan to expand this tool's functionality as I delve deeper into network security and Haskell's capabilities. Upcoming features include:
 
 - Vulnerability Analysis: Scanning and reporting potential vulnerabilities on open ports.
 - Password Checkers: Implementing basic password strength checking and common password testing against services.
